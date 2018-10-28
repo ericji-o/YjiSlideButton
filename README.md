@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
+![result](https://github.com/Ericji1989114/YjiSlideButton/blob/master/effect.gif)
 
 ## Requirements
 Swift version >= 4.2
