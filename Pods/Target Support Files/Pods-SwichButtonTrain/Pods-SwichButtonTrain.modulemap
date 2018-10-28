@@ -1,0 +1,6 @@
+framework module Pods_SwichButtonTrain {
+  umbrella header "Pods-SwichButtonTrain-umbrella.h"
+
+  export *
+  module * { export * }
+}

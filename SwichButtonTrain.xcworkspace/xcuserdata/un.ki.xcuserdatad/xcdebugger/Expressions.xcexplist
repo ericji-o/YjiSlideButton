@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SlideSwitch.layoutHeadView(_:):SlideSwitch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "headWidth">
+            </PersistentString>
+            <PersistentString
+               value = "headInset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SlideSwitch.setupBackgroundView():SlideSwitch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MMSlidingButton.setStyle():MMSlidingButton.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MMSlidingButton.panDetected(sender:):MMSlidingButton.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dragPoint.frame.origin.x">
+            </PersistentString>
+            <PersistentString
+               value = "self.frame.size.width-dragPointWidth/2">
+            </PersistentString>
+            <PersistentString
+               value = "self.dragPointWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
