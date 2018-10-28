@@ -16,6 +16,7 @@
 		4C14CAB221857DA3007E3C98 /* YjiSlideButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C14CAAB21857DA3007E3C98 /* YjiSlideButton.framework */; };
 		4C14CAB321857DA3007E3C98 /* YjiSlideButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C14CAAB21857DA3007E3C98 /* YjiSlideButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C14CAB821857DAC007E3C98 /* YjiSlideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E643F2182DC4100931FCA /* YjiSlideButton.swift */; };
+		4C14CABA21858C1D007E3C98 /* YjiSlideButton.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4C14CAB921858C1D007E3C98 /* YjiSlideButton.podspec */; };
 		DB16BF661E6BAD170A71CD45 /* Pods_SwichButtonTrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C3965E27E41946F8FBB2A3 /* Pods_SwichButtonTrain.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		4C14CAAB21857DA3007E3C98 /* YjiSlideButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YjiSlideButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C14CAAD21857DA3007E3C98 /* YjiSlideButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YjiSlideButton.h; sourceTree = "<group>"; };
 		4C14CAAE21857DA3007E3C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C14CAB921858C1D007E3C98 /* YjiSlideButton.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YjiSlideButton.podspec; sourceTree = SOURCE_ROOT; };
 		4C5E643F2182DC4100931FCA /* YjiSlideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiSlideButton.swift; sourceTree = "<group>"; };
 		9BD9C4968CE03FC3D9F529F8 /* Pods-SwichButtonTrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwichButtonTrain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwichButtonTrain/Pods-SwichButtonTrain.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 		4C0C1AA221819424007D6A96 /* SwichButtonTrain */ = {
 			isa = PBXGroup;
 			children = (
+				4C14CAB921858C1D007E3C98 /* YjiSlideButton.podspec */,
 				4C0C1AA321819424007D6A96 /* AppDelegate.swift */,
 				4C0C1AA521819424007D6A96 /* ViewController.swift */,
 				4C0C1AA721819424007D6A96 /* Main.storyboard */,
@@ -238,6 +241,7 @@
 				4C0C1AAE21819425007D6A96 /* LaunchScreen.storyboard in Resources */,
 				4C0C1AAB21819425007D6A96 /* Assets.xcassets in Resources */,
 				4C0C1AA921819424007D6A96 /* Main.storyboard in Resources */,
+				4C14CABA21858C1D007E3C98 /* YjiSlideButton.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

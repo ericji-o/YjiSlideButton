@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     }
     
     private func yjiSlideButton1LayoutSetting() {
+        yjiSwitch1.delegate = self
         self.view.addSubview(yjiSwitch1)
         yjiSwitch1.setValue(NSNumber(value: 62), forKeyPath: "dragPointWidth")
         yjiSwitch1.setValue(NSNumber(value: 31), forKeyPath: "layer.cornerRadius")
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
     }
     
     private func yjiSlideButton2LayoutSetting() {
+        yjiSwitch2.delegate = self
         self.view.addSubview(yjiSwitch2)
         yjiSwitch2.setValue(NSNumber(value: 62), forKeyPath: "dragPointWidth")
         yjiSwitch2.setValue(NSNumber(value: 31), forKeyPath: "layer.cornerRadius")
@@ -82,3 +84,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: YjiSlideButtonDelegate {
+    func buttonStatus(status:String, sender: YjiSlideButton) {
+        print(status)
+    }
+}

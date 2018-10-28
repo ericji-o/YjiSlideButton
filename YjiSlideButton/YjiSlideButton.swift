@@ -15,7 +15,7 @@ public protocol YjiSlideButtonDelegate {
 
 @IBDesignable open class YjiSlideButton: UIView {
     
-    var delegate: YjiSlideButtonDelegate?
+    open var delegate: YjiSlideButtonDelegate?
     
     // property
     @IBInspectable var dragPointWidth: CGFloat = 70
